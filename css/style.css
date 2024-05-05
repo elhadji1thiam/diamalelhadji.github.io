@@ -1,0 +1,47 @@
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #63ff8594;
+    color: #000000;
+    margin: 0 100px;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    padding-bottom: 70px;
+    background: white;
+}
+.nav h1{
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: blue;
+    border-bottom: 2px solid black;
+}
+.nav h1 span{
+    color: green;
+}
+.nav ul{
+    background: #fff;
+    margin: 10px 0;
+    float: right;
+    overflow: hidden;
+    margin-right: 100px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.nav ul li a{
+    color: #4cfa50;
+    font-size: 25px;
+    font-weight: bold;
+}
